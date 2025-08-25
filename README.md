@@ -25,6 +25,11 @@ Google Colab 환경에서 진행되었으며, PyTorch와 ConvNet-tiny을 backbon
 - Loss와 Activity를 시각화 한 결과 epoch가 10정도에 다다를 경우, 완만해지는 경향을 확인했습니다.
 - epoch가 증가할수록 모델이 train 데이터에 과적합(Overfitting)이 될 수 있기 때문에 epoch는 20으로 고정을 하였습니다.
 
+## ✈️ 과정 
+- 제한된 데이터셋의 수에 초점을 두어 이미지 증강에 초점을 두었습니다.
+- 스케일링, 회전 등 이미지 증강을 통해 일관성을 유지할 수 있도록 진행하였습니다.
+- 이미지 증강기법 중 CutMix도 진행하였으나 Colab 무료버전으로 인해 완성하지는 못했습니다.
+  
 ## 📊 결과
 - Public Score: **0.956**
 - Private Score: **0.952**
