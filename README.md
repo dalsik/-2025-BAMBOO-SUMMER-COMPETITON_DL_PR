@@ -1,5 +1,6 @@
 # 🐼 Bamboo Summer Competition - Deep Learning PR
-<img width="913" height="572" alt="Image" src="https://github.com/user-attachments/assets/28e8ae91-099d-45e3-aaff-15e02b265446" />
+<img width="828" height="575" alt="Image" src="https://github.com/user-attachments/assets/74eb0581-49d6-4049-9618-fdc086a888ff" />
+
 해당 프로젝트는 **2025 Bamboo Summer Kaggle Competition** 딥러닝 이미지 분류 프로젝트입니다.  
 Google Colab 환경에서 진행되었으며, PyTorch와 ConvNet-tiny을 backbone으로 활용해 진행하였습니다.  
 
@@ -19,6 +20,8 @@ Google Colab 환경에서 진행되었으며, PyTorch와 ConvNet-tiny을 backbon
   그 중 **ConvNeXt-Tiny**가 Public Score에서 가장 안정적인 성능을 보여 최종 모델로 채택하였습니다.
 
 ## ✔️ Loss & Activity
+<img width="1457" height="498" alt="Image" src="https://github.com/user-attachments/assets/cf41e36d-2b5e-4a89-8d14-74c16b607339" />
+
 - Loss와 Activity를 시각화 한 결과 epoch가 10정도에 다다를 경우, 완만해지는 경향을 확인했습니다.
 - epoch가 증가할수록 모델이 train 데이터에 과적합(Overfitting)이 될 수 있기 때문에 epoch는 20으로 고정을 하였습니다.
 
